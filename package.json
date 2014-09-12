@@ -1,0 +1,13 @@
+{
+  "name": "will-it-optimize",
+  "version": "0.1.0",
+  "description": "Suite of tests for determining what v8 will optimize",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Colin J. Ihrig <cjihrig@gmail.com> (http://www.cjihrig.com/)",
+  "license": "MIT",
+  "dependencies": {}
+}
