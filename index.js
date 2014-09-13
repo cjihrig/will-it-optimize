@@ -18,6 +18,11 @@ child.on('message', function(msg) {
 
 // TODO: this should be read from the tests directory
 var TESTS = ['noop',
+              'access-non-existent-arguments-index',
+              'access-valid-arguments-index',
+              'leaks-arguments-via-closure',
+              'pass-arguments-to-call',
+              'return-arguments',
               'try-catch-finally',
               'try-catch',
               'try-finally',

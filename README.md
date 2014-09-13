@@ -10,10 +10,9 @@ I don't care [if something will blend](http://www.willitblend.com/) (well, I kin
 
 A test is defined by the `module.exports` object. The following properties are supported:
 
-- `description` - A written description of the test. Markdown is allowed.
-- `exec` - The test code to execute.
-
-There are plans to support passing arguments to the tests (for `arguments` testing), and possibly setup code if it is deemed necessary.
+- `description` - String. A written description of the test. Markdown is allowed.
+- `exec` - Function. The test code to execute.
+- `args` - Optional Array. Arguments passed to the test code.
 
 An example test is shown below. This will execute a function containing a `with` statement, which v8 cannot currently optimize.
 
