@@ -1,5 +1,5 @@
 module.exports = {
-  description: '`switch` statement with over 128 cases',
+  description: '`switch` statement with 128 cases',
   args: [100],
   exec: function exec(arg) {
     switch (arg) {
