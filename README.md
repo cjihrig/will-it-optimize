@@ -13,6 +13,8 @@ A test is defined by the `module.exports` object. The following properties are s
 - `description` - String. A written description of the test. Markdown is allowed.
 - `exec` - Function. The test code to execute.
 - `args` - Optional Array. Arguments passed to the test code.
+- `warmup` - Optional Array. Array of objects used to warmup v8. If `warmup` is not specified, the test function will be invoked once using `args` as the arguments. Each object in the array results in an invocation of the test function. This is used to fill in v8's type info. Each object may contain the following fields:
+  - `args` - Optional Array. Arguments passed to the test code on the given warmup iteration.
 
 An example test is shown below. This will execute a function containing a `with` statement, which v8 cannot currently optimize.
 
