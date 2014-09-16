@@ -13,7 +13,7 @@ var runner = {
     var self = this;
 
     this.driver = cp.fork(this.driverPath, {
-      execArgv: ['--allow-natives-syntax']
+      execArgv: ['--allow-natives-syntax', '--harmony']
     });
 
     this.driver.on('message', function(msg) {
