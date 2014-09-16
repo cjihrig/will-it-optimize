@@ -1,5 +1,7 @@
 # will-it-optimize
 
+[![Current Version](https://img.shields.io/npm/v/will-it-optimize.svg)](https://www.npmjs.org/package/will-it-optimize)
+
 I don't care [if something will blend](http://www.willitblend.com/) (well, I kind of do). I want to know if something can be optimized by v8. `will-it-optimize` reports whether or not a function can be optimized based on its contents. Hopefully, this will make it easier to track what can be optimized in various versions of node.js without paying extremely close attention to the v8 codebase.
 
 ## Running the Tests
