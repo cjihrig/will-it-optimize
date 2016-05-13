@@ -7,6 +7,10 @@
     "start": "node index",
     "test": "node index"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjihrig/will-it-optimize.git"
+  },
   "author": "Colin J. Ihrig <cjihrig@gmail.com> (http://www.cjihrig.com/)",
   "license": "MIT",
   "dependencies": {}
